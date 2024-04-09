@@ -24,10 +24,13 @@
         </div>
         <div class="menu-item">
           <a href="AboutUs.html">About</a>
-          <!-- <a href="#">Services</a> -->
+          <a href="#">Services</a>
           <a href="#">Your Orders</a>
-          <!-- <a href="#">Wishlists</a> -->
-          <a href="#">Cart</a>
+          <a href="#">Wishlists</a>
+          <a href="#" onclick="
+            document.querySelector('#cart-plus').click();
+        
+          ">Cart</a>
           <a href="#">Contact</a>
           <a href="#">Checkout</a>
         </div>
@@ -42,7 +45,7 @@
           </div>
           <div class="util">
             <i class="fa fa-search"> Search</i>
-            <i class="fa fa-tags"> Offers</i>
+            <a href="offerPage.html"><i class="fa fa-tags"> Offers</i></a>
             <i class="fa fa-cart-plus" id="cart-plus"> 0 Items</i>
           </div>
         </div>
